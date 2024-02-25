@@ -15,7 +15,7 @@ if (placar > 0 && placar % 5 === 0) {
     this.physics.add.collider(bombs, plataforma);
     this.physics.add.collider(alien, bombs, hitBomb, null, this);
 
-    this.load.image('bomba', 'assets/bomb.png');
+    
 
     var bomba;
         var gameOver = false;
